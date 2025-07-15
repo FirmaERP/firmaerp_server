@@ -1,11 +1,18 @@
 {
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 80,
+  "makefile.configureOnOpen": false,
   "typespec.tsp-server.path": "${workspaceFolder}/node_modules/@typespec/compiler",
   "cSpell.words": [
     "debian",
+    "dtos",
     "firmaerp",
+    "gonic",
+    "Gonic",
     "openapi",
     "softyes",
+    "swaggest",
+    "swgui",
     "typespec"
   ],
-  "makefile.configureOnOpen": false
 }

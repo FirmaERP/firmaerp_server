@@ -1,7 +1,31 @@
 package main
 
-import "fmt"
+import (
+	"os"
+	"time"
+
+	"github.com/FirmaERP/firmaerp_server/internal"
+)
 
 func main() {
-	fmt.Println("Hello World! FirmaERP.")
+	time.Local = time.UTC
+
+	mode := os.Getenv("GIN_MODE")
+	if mode == "" {
+		panic("environment variable GIN_MODE is empty")
+	}
+
+	gin, err := internal.NewGin()
+	if err != nil {
+		panic(err)
+	}
+
+	if mode != "release" {
+		internal.InitOpenAPI(gin)
+	}
+
+	err = gin.Init()
+	if err != nil {
+		panic(err)
+	}
 }
