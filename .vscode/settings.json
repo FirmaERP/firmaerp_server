@@ -1,7 +1,11 @@
 {
+  "typespec.tsp-server.path": "${workspaceFolder}/node_modules/@typespec/compiler",
   "cSpell.words": [
     "debian",
     "firmaerp",
-    "softyes"
-  ]
+    "openapi",
+    "softyes",
+    "typespec"
+  ],
+  "makefile.configureOnOpen": false
 }
