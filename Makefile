@@ -3,7 +3,7 @@ ifneq (,$(wildcard ./.env))
     export
 endif
 
-.PHONY: deps docs run
+.PHONY: deps docs run compose
 
 default: run
 
@@ -20,3 +20,8 @@ run:
 	@go work sync
 	@cd ./app; go mod tidy
 	@go run ./app/cmd/main.go
+
+compose:
+	@echo "Running Docker Compose..."
+	@docker compose down
+	@DB_PORT=${DB_PORT} DB_NAME=${DB_NAME} DB_USER=${DB_USER} DB_PASS=${DB_PASS} docker compose up -d
