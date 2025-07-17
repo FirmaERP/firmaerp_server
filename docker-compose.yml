@@ -1,0 +1,19 @@
+name: firmaerp
+
+services:
+  database:
+    restart: always
+    image: postgres:latest
+    container_name: firmaerp_database
+    ports:
+      - ${DB_PORT}:5432
+    networks:
+      - firmaerp_network
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+
+networks:
+  firmaerp_network:
+    driver: bridge
