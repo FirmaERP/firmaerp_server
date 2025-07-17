@@ -15,6 +15,11 @@ func main() {
 		panic("environment variable GIN_MODE is empty")
 	}
 
+	_, err := internal.InitGorm()
+	if err != nil {
+		panic(err)
+	}
+
 	gin, err := internal.NewGin()
 	if err != nil {
 		panic(err)
