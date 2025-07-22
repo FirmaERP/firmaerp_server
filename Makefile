@@ -3,9 +3,17 @@ ifneq (,$(wildcard ./.env))
     export
 endif
 
-.PHONY: run compose
+.PHONY: deps docs run compose
 
 default: run
+
+deps:
+	@echo "Installing dependencies..."
+	@npm install
+
+docs:
+	@echo "Generating API docs..."
+	@npx tsp compile ./docs
 
 run:
 	@echo "Running the application..."
