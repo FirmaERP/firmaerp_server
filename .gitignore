@@ -1,0 +1,14 @@
+# MacOS
+.DS_Store
+
+# Default TypeSpec output
+tsp-output/
+
+# Dependency directories
+node_modules/
+
+# Build and Distribution
+dist/
+build/
+
+.env
