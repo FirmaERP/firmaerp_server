@@ -1,6 +1,6 @@
 [![United States](https://raw.githubusercontent.com/stevenrskelton/flag-icon/master/png/16/country-4x3/us.png "United States") English](README_EN.md)
 
-<img width="100" height="100" src="readme/logo.png" alt="project logo">
+<img width="100" height="100" src="docs/assets/logo.png" alt="project logo">
 
 # FirmaERP | Servidor
 
