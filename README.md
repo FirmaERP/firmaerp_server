@@ -4,17 +4,17 @@
 
 # FirmaERP | Servidor
 
-![Lançamento no GitHub](https://img.shields.io/github/v/release/FirmaERP/firmaerp_client?include_prereleases&color=orange)
-![Licença](https://img.shields.io/github/license/FirmaERP/firmaerp_client?color=orange)
-![Contribuição](https://img.shields.io/badge/contributions-Closed-orange)
+![Lançamento no GitHub](https://img.shields.io/github/v/release/FirmaERP/firmaerp_client?include_prereleases&color=teal)
+![Licença](https://img.shields.io/github/license/FirmaERP/firmaerp_client?color=teal)
+![Contribuição](https://img.shields.io/badge/contributions-Closed-teal)
 
 Esse repositório FirmaERP centraliza o aplicativo do servidor e seus módulos.
 
 ## 📦 Tecnologias
 
-![Feito com Golang](https://img.shields.io/badge/backend-Golang-orange)
-![Feito com SQLite3](https://img.shields.io/badge/database-SQLite3-orange)
-![Feito com PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-orange)
+![Feito com Golang](https://img.shields.io/badge/backend-Golang-teal)
+![Feito com SQLite3](https://img.shields.io/badge/database-SQLite3-teal)
+![Feito com PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-teal)
 
 * [Golang](https://go.dev/)
 * [SQLite3](https://www.sqlite.org/)

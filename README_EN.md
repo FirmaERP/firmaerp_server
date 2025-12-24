@@ -4,17 +4,17 @@
 
 # FirmaERP | Server
 
-![GitHub Release](https://img.shields.io/github/v/release/FirmaERP/firmaerp_client?include_prereleases&color=orange)
-![License](https://img.shields.io/github/license/FirmaERP/firmaerp_client?color=orange)
-![Contributions Welcome](https://img.shields.io/badge/contributions-Closed-orange)
+![GitHub Release](https://img.shields.io/github/v/release/FirmaERP/firmaerp_client?include_prereleases&color=teal)
+![License](https://img.shields.io/github/license/FirmaERP/firmaerp_client?color=teal)
+![Contributions Welcome](https://img.shields.io/badge/contributions-Closed-teal)
 
 This FirmaERP repository centralizes the server application and its associated modules.
 
 ## 📦 Technologies
 
-![Made with Golang](https://img.shields.io/badge/backend-Golang-orange)
-![Made with SQLite3](https://img.shields.io/badge/database-SQLite3-orange)
-![Made with PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-orange)
+![Made with Golang](https://img.shields.io/badge/backend-Golang-teal)
+![Made with SQLite3](https://img.shields.io/badge/database-SQLite3-teal)
+![Made with PostgreSQL](https://img.shields.io/badge/database-PostgreSQL-teal)
 
 * [Golang](https://go.dev/)
 * [SQLite3](https://www.sqlite.org/)
